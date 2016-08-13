@@ -1,0 +1,51 @@
+(199, 212871, '71')
+(199, 212872, '1920000')
+(199, 212873, 'Video')
+(199, 212874, 'sip:corporate.ge.com@corporate.ge.com')
+(199, 212875, 'Outgoing')
+(199, 212876, 'Call party not registered')
+(199, 212877, '12')
+(199, 212878, 'Telepresence meeting')
+(199, 212879, '0')
+(199, 212880, 'Aes-128')
+(199, 212881, 'Sip')
+(199, 212882, 'sip:corporate.ge.com@corporate.ge.com')
+(199, 212883, '2015/04/02 15:00:34')
+(199, 212884, 'NetworkRejected')
+
+199 => {212671=>sdsjdlsjd,12121=>shksd}
+
+mysql> select * from dev_journals_crunched_87 where entry_id=199 limit 1 \G
+*************************** 1. row ***************************
+   entry_id: 199
+date_update: 2015-04-03 15:16:09
+  pres_7147: 71
+  pres_7148: Sip
+  pres_7149: Outgoing
+  pres_7150: Video
+  pres_7151: sip:corporate.ge.com@corporate.ge.com
+  pres_7152: sip:corporate.ge.com@corporate.ge.com
+  pres_7153: Telepresence meeting
+  pres_7154: 1920000
+  pres_7155: Call party not registered
+  pres_7156: 12
+  pres_7157: 2015/04/02 15:00:34
+  pres_7158: 0
+  pres_7159: Aes-128
+  pres_7160: NetworkRejected
+  pres_7284: {o_214052}
+
+
+mysql> use dynamic_app_data_10741
+Database changed
+mysql> show tables;
++----------------------------------+
+| Tables_in_dynamic_app_data_10741 |
++----------------------------------+
+| dev_journals_62                  |
+| dev_journals_87                  |
+| dev_journals_crunched_62         |
+| dev_journals_crunched_87         |
+| journal_meta                     |
++----------------------------------+
+5 rows in set (0.03 sec

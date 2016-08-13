@@ -1,0 +1,3 @@
+#Mon Apr 28 11:23:27 IST 2014
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1398664340467">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1398664340467" javadocURL\="http\://java.sun.com/j2se/1.5.0/docs/api/" name\="EasyEclipse-for-Python-1.3.1" path\="C\:\\EasyEclipse-for-Python-1.3.1"/>\r\n</vmType>\r\n</vmSettings>\r\n
